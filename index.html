@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gideon</title>
+    <title>Мой маршрут</title>
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
     <style>
@@ -31,7 +31,7 @@
 </head>
 <body>
     <div class="info">
-        <h3>🗺️ За кулисами советской истории </h3>
+        <h3>🗺️ Мой маршрут</h3>
         <p>Отслеживайте свое местоположение и следуйте по точкам</p>
     </div>
     
@@ -52,6 +52,7 @@
             {name: "Ажурный дом", lat: 55.7896, lon: 37.5575}
             {name: "Стадион «Динамо»", lat: 55.7915, lon: 37.5597}
             {name: "Петровский путевой дворец»", lat: 55.7931, lon: 37.5532}
+
         ];
         // === КОНЕЦ МАРШРУТА ===
         
@@ -112,6 +113,9 @@
         setTimeout(() => {
             findMe();
         }, 1000);
+    </script>
+</body>
+</html>
     </script>
 </body>
 </html>
